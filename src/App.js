@@ -4,6 +4,7 @@ import Header from "./Header";
 import Ability from "./Ability";
 import Chapter from "./Chapter";
 import TargetReaders from "./TargetReaders";
+import Reviews from "./Reviews";
 
 import "./App.css";
 
@@ -14,6 +15,7 @@ function App() {
       <Ability />
       <Chapter />
       <TargetReaders />
+      <Reviews />
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.Reviews {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.Reviews-header {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1c1e2e;
+  font-weight: bold;
+}
+
+.Reviews-p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #4c527d;
+}
+
+.Reviews__users::after,
+.Reviews__users::before {
+  content: none;
+}
+
+.Reviews__users {
+  width: 80%;
+  margin: 4rem auto 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 3.5rem;
+  justify-content: center;
+  align-items: flex-start;
+}

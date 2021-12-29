@@ -1,0 +1,53 @@
+.User {
+  position: relative;
+  background-color: white;
+  padding: 2rem;
+  text-align: left;
+}
+
+.user-icons {
+  position: absolute;
+  top: -25px;
+  right: 163px;
+  background-color: #4169e1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon {
+  color: #fff;
+}
+
+.User p {
+  color: #4c527d;
+  font-style: italic;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-right: 0.8rem;
+}
+
+.profile span h5,
+.profile span h6 {
+  color: #4c527d;
+  font-weight: 500;
+}
+
+.profile span h5 {
+  margin-bottom: 0.2rem;
+}
