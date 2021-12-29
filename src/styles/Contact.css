@@ -66,3 +66,9 @@
 .Contact div input:focus {
   outline: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .Contact div input {
+    width: 20rem;
+  }
+}

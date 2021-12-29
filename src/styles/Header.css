@@ -45,13 +45,46 @@
 }
 
 .Header__col-left span {
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.Header__col-left span > *:not(:last-child) {
+  margin-right: 1.5rem;
 }
 
 .Header__col-right {
   width: 50%;
   z-index: 10;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Header__col-left span > *:not(:first-child) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Header__row {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 868px) {
+  .Header__row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Header__col-left {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .Header__col-right {
+    width: 100%;
+  }
 }

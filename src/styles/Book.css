@@ -548,7 +548,12 @@ figcaption p {
 }
 
 /* Media Queries */
-@media screen and (max-width: 37.8125em) {
+@media only screen and (max-width: 868px) {
+  .Book-component {
+    justify-content: center;
+  }
+}
+/* @media screen and (max-width: 37.8125em) {
   .align > li {
     width: 100%;
     min-height: 440px;
@@ -569,4 +574,4 @@ figcaption p {
     left: -80px;
     font-size: 90%;
   }
-}
+} */

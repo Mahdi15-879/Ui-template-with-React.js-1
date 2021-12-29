@@ -31,3 +31,18 @@
   font-size: 1.2rem;
   color: #4c527d;
 }
+
+@media only screen and (max-width: 1200px) {
+  .Chapter__row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Chpater__col-left {
+    margin-bottom: 5rem;
+  }
+}

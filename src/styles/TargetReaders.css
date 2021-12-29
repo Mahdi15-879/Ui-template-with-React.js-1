@@ -48,3 +48,9 @@
   color: #4c527d;
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 992px) {
+  .TargetReaders__row {
+    width: 80%;
+  }
+}
