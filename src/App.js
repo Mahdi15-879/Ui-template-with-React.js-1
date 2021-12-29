@@ -6,6 +6,7 @@ import Chapter from "./Chapter";
 import TargetReaders from "./TargetReaders";
 import Reviews from "./Reviews";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
       <TargetReaders />
       <Reviews />
       <Contact />
+      <Footer />
     </div>
   );
 }

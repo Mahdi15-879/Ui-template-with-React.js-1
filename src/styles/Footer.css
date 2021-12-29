@@ -1,0 +1,58 @@
+.Footer {
+  background-color: #4169e1;
+  padding: 6rem 0;
+}
+
+.Footer__row {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.Footer__row img {
+  border: 3px solid #1c42b1;
+  border-radius: 50%;
+}
+
+.Footer__row h1 {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  margin: 3rem 0 1rem 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.Footer__row p {
+  font-size: 1rem;
+  line-height: 2;
+  color: #fff;
+}
+
+.Footer__row h3 {
+  color: #fff;
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.Footer__row div {
+  margin-top: 1.2rem;
+}
+
+.Footer__row div a {
+  text-decoration: none;
+  padding: 0.5rem;
+  background-color: rgba(196, 191, 191, 0.199);
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.Footer__row div a:not(:last-child) {
+  margin-right: 0.8rem;
+}
