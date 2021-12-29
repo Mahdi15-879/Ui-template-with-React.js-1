@@ -1,0 +1,33 @@
+.Chapter {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.Chapter h1 {
+  margin-bottom: 6rem;
+  color: #1c1e2e;
+  font-size: 3rem;
+}
+
+.Chapter__row {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Chapter__col-right ol {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.Chapter__col-right ol > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.Chapter__col-right ol li {
+  font-size: 1.2rem;
+  color: #4c527d;
+}
