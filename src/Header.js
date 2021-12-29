@@ -18,7 +18,11 @@ const Header = () => {
           </p>
           <span>
             <Button cName={"btn-secondary"} text={"BUY FOR $49"} href={"#"} />
-            <Button cName={"btn-tertiary"} text={"LEARN MORE"} href={"#"} />
+            <Button
+              cName={"btn-tertiary"}
+              text={"LEARN MORE"}
+              href={"#ability"}
+            />
           </span>
         </div>
 
@@ -26,6 +30,11 @@ const Header = () => {
           <Book hover={true} />
         </div>
       </div>
+      <img
+        className="Head-cover"
+        src={require("./img/hero-shape-bottom.png")}
+        alt="Head-cover"
+      />
     </div>
   );
 };

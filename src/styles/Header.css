@@ -3,10 +3,14 @@
   height: 100vh;
   background-color: #4169e1;
   margin-top: -22px;
-  background-image: url("../img/hero-shape-bottom.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom;
+  position: relative;
+}
+
+.Head-cover {
+  width: 100%;
+  position: absolute;
+  bottom: -15px;
+  z-index: 0;
 }
 
 .Header__row {
@@ -16,10 +20,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: -1;
 }
 
 .Header__col-left {
   width: 50%;
+  z-index: 10;
 }
 
 .Header__col-left h1 {
@@ -47,4 +53,5 @@
 
 .Header__col-right {
   width: 50%;
+  z-index: 10;
 }
