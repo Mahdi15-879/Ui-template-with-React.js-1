@@ -1,7 +1,11 @@
 .Contact {
-  margin: 5rem 0;
+  margin: 5rem auto;
   text-align: center;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .Contact h1 {
@@ -19,17 +23,23 @@
 }
 
 .Contact div {
-  position: relative;
-  margin-top: 1.5rem;
+  max-width: 38rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.Contact span {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 1.5rem;
+}
+
 .Contact div button {
   position: absolute;
   top: 0;
-  right: 543px;
+  right: 0px;
   height: 3.5rem;
   width: 8rem;
   background-color: #4169e1;

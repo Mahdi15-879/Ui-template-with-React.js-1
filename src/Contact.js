@@ -11,8 +11,10 @@ const Contact = () => {
         book previews to generate leads.
       </p>
       <div>
-        <input type="email" placeholder="Enter your email" />
-        <button>Subscribe</button>
+        <span>
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </span>
       </div>
     </div>
   );
