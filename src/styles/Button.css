@@ -1,0 +1,36 @@
+.btn-primary {
+  background-color: #4169e1;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.4s ease-in-out;
+  border-radius: 2rem;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #4169e1;
+  padding: 0.5rem 0.8rem;
+  border: 2px solid #fff;
+  font-size: 1.2rem;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.4s ease-in-out;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-tertiary {
+  background-color: #4169e1;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.4s ease-in-out;
+  border-radius: 2rem;
+  text-decoration: none;
+}
