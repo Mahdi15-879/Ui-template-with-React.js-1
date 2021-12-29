@@ -1,0 +1,49 @@
+.TargetReaders {
+  width: 100%;
+  margin: 5rem auto 3rem auto;
+  text-align: center;
+}
+
+.TargetReaders h1 {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1c1e2e;
+  font-weight: bold;
+}
+
+.target-p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #4c527d;
+}
+
+.TargetReaders__row {
+  text-align: left;
+  width: 40%;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Target__row-head {
+  display: flex;
+  align-items: center;
+  color: #1c1e2e;
+  margin-bottom: 0.5rem;
+}
+
+.target-icon {
+  color: #1c1e2e;
+  margin-right: 0.8rem;
+}
+
+.Target__row-head h4 {
+  font-size: 1.2rem;
+}
+
+.TargetReaders__row p {
+  color: #4c527d;
+  margin-bottom: 2rem;
+}
