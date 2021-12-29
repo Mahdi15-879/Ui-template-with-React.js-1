@@ -5,6 +5,7 @@ import Ability from "./Ability";
 import Chapter from "./Chapter";
 import TargetReaders from "./TargetReaders";
 import Reviews from "./Reviews";
+import Contact from "./Contact";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <Chapter />
       <TargetReaders />
       <Reviews />
+      <Contact />
     </div>
   );
 }

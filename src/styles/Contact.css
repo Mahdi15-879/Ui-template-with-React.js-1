@@ -1,0 +1,58 @@
+.Contact {
+  margin: 5rem 0;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.Contact h1 {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1c1e2e;
+  font-weight: bold;
+}
+
+.Contact p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #4c527d;
+}
+
+.Contact div {
+  position: relative;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact div button {
+  position: absolute;
+  top: 0;
+  right: 543px;
+  height: 3.5rem;
+  width: 8rem;
+  background-color: #4169e1;
+  color: #fff;
+  border: 1px solid #4169e1;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.Contact div input {
+  height: 3.5rem;
+  width: 25rem;
+  border: 1px solid #e3e9f6;
+  border-radius: 30px;
+  padding: 0 1.5rem;
+}
+
+.Contact div input::-webkit-input-placeholder {
+  color: #c5c9d1;
+  font-size: 0.9rem;
+}
+
+.Contact div input:focus {
+  outline: none;
+}
