@@ -79,6 +79,10 @@
     justify-content: center;
   }
 
+  .Header__col-left h1 {
+    font-size: 3rem;
+  }
+
   .Header__col-left {
     width: 100%;
     margin-bottom: 5rem;
