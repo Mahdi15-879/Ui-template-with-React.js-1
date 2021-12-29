@@ -23,7 +23,7 @@ const Header = () => {
         </div>
 
         <div className="Header__col-right">
-          <Book />
+          <Book hover={true} />
         </div>
       </div>
     </div>

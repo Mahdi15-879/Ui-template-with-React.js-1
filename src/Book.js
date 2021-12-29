@@ -2,11 +2,11 @@ import React from "react";
 
 import "./styles/Book.css";
 
-const Book = () => {
+const Book = (props) => {
   return (
     <div className="Book-component">
       <li className="first-li">
-        <figure className="book">
+        <figure className={`book ${props.hover && "book-h"}`}>
           <ul className="hardcover_front">
             <li>
               <img
